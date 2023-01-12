@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c781c5c4a9.js" crossorigin="anonymous"></script>
+    <title>Youtube</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <i class="fab fa-youtube" style="color: red;"></i>
+            <h>Youtube</h>
+        </div>
+        <div class="h-icon-box">
+            <button id="question"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button id="toggle"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+        </div>
+    </header>
+    <main>
+        <div class="player">player
+            <video tabindex="-1" class="video-stream" controlslist="nodownload"
+                src="blob:https://www.youtube.com/dd045eae-cf84-492a-a0cb-c01189722478" </video>
+        </div>
+        <div class="box">
+            <div class="col" id="info-box">
+                <h3 class="tag">#DreamsCoding #DreamCoders #Ellie</h3>
+                <div>
+                    <p>Clone Coding:Youtube Mobile Website 유튜브 모바일 웹사이트 따라 만들기! 유트브 모바일 사이트 프론트 앤드 기초 HTML CSS</p>
+                    <i><i class="fa-solid fa-caret-down"></i></i>
+                </div>
+                <h6>3M viewers l month ago</h6>
+                <div class="icon-box">
+                    <span><i class="fa-solid fa-thumbs-up"></i>
+                        <h>1k</h>
+                    </span>
+                    <span><i class="fa-solid fa-thumbs-down"></i>
+                        <h>0</h>
+                    </span>
+                    <span><i class="fa-solid fa-share"></i>
+                        <h>Share</h>
+                    </span>
+                    <span><i class="fa-solid fa-plus"></i>
+                        <h>Save</h>
+                    </span>
+                    <span><i class="fa-solid fa-flag"></i>
+                        <h>Report</h>
+                    </span>
+                </div>
+                <div class="profile">
+                    <img src="./img/featured_channel.jpg" alt="프로필사진">
+                    <div style="display: flex;flex-direction: row;justify-content: space-between;">
+                        <div style="align-items: flex-start;">
+                            <h class="channelname">드림코딩 by 캘리</h>
+                            <h class="subscribe">1M subscribers</h>
+                        </div>
+                        <span>SUBSCRIBE</span>
+                    </div>
+                </div>
+            </div>
+            <div class="list">
+                <h5 id="up-next">Up next</h5>
+                <ul class="playlist">
+                    <li class="play-li" id="li-1">
+                        <img src="./img/list1.webp" alt="썸네일">
+                        <div>
+                            <h1 class="li-title">🖤 [𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 내가 들으려고 만든 감성힙합 모음 I 비오, 서동현, 릴러말즈, 김승민✨</h1>
+                            <h3 class="li-name">드림코딩 by 캘리</h3>
+                            <h6 class="li-info">82k views</h6>
+                        </div>
+                        <button id="toggle"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                    </li>
+                    <li class="play-li" id="li-2">
+                        <img src="./img/list2.webp" alt="썸네일">
+                        <div>
+                            <h1 class="li-title">🖤 [𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 내가 들으려고 만든 감성힙합 모음 I 비오, 서동현, 릴러말즈, 김승민 </h1>
+                            <h3 class="li-name">쉐어룸 SHARE ROOM</h3>
+                            <h6 class="li-info">82k views</h6>
+                        </div>
+                        <button id="toggle"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                    </li>
+                    <li class="play-li" id="li-3">
+                        <img src="./img/list3.webp" alt="썸네일">
+                        <div>
+                            <h1 class="li-title">[𝐒𝐕𝐓 𝐏𝐋𝐀𝐘𝐋𝐈𝐒𝐓] 22년도를 돌아보며 세븐틴 역대 타이틀곡 몰아듣기🎧 (가사 O) I 세븐틴 노래
+                                모음 I 세븐틴 플레이리스트 </h1>
+                            <h3 class="li-name">볼우물 DIMPLE</h3>
+                            <h6 class="li-info">82k views</h6>
+                        </div>
+                        <button id="toggle"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
